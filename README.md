@@ -1,6 +1,6 @@
 # Red State - Blue States: Health Risks versus Age and Income
 
-This site graphs age and income data in relation to health risks facing particular demographics per US State. The data set is based on 2014 ACS 1-year estimates available through the [US Census website](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml).
+[This site](https://mahwah66.github.io/census-data/) plots age and income data in relation to health risks facing particular demographics per US State. The data set is based on 2014 ACS 1-year estimates available through the [US Census website](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml).
 
 Since government healthcare and spending policy can be hotly contested per political party, state data points were color-coded on the graph according to majority political party vote count for the state in the 2016 general election (Presidential, Senate, and House of Representatives combined). Vote count data by state was downloaded from the [Federal Elections Commission](https://transition.fec.gov/general/FederalElections2016.shtml). Red circles on the chart represent states with a Republican party majority vote in 2016, while blue circles show Democratic party majority states. Any states with exactly equal votes between those two major political party would show in purple.
 
