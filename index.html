@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>United States Population Health, Age, and Income by State</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="header bg-dark">
+      US Age and Income vs Health Risk Factors by State
+  </div>
+  <div class="container">
+    <!-- <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>US Age and Income vs Health Risk Factors by State</h1>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col-xs-12  col-md-12 sidepad">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12 sidepad">
+        <div class="article">
+          <hr>
+          <h2>Red State - Blue States: Health Risks versus Age&nbsp;and&nbsp;Income</h2>
+          <p>The chart above shows age and income data in relation to health risks facing particular demographics per US State. The data set is based on 2014 ACS 1-year estimates available through the <a href= "https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml" target="_blank">US Census website</a>.</p>
+
+          <p>Since government healthcare and spending policy can be hotly contested per political party, state points were color-coded according to majority political party vote count per state in the 2016 general election (Presidential, Senate, and House of Representatives combined). Vote count data by state was downloaded from the <a href = "https://transition.fec.gov/general/FederalElections2016.shtml"  target="_blank">Federal Elections Commission</a>. Red circles on the chart represent states with a Republican party majority vote in 2016, while blue circles show Democratic party majority states. Any states with exactly equal votes between those two major political party would show in purple.</p>
+
+          <p>In general, the data shows a correlation between health risk (obesity %, smoking %, and % lacking healthcare) and poverty percent. Those same health risk factors appear inversely correlated to median household income. Obesity and smoking percentage of population appear to increase with age, while percentage lacking healthcare appears to decrease slightly with age.</p>
+
+          <p>Blue states (majority Democratic party vote count) appear to have lower average percentages of obesity, residents who smoke, and residents lacking healthcare. Red states (majority Republican party vote count) show lower household income and higher poverty percent.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Data Sources: <a href= "https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml" target="_blank">US Census</a> and <a href = "https://transition.fec.gov/general/FederalElections2016.shtml"  target="_blank">Federal Elections Commission</a></p>
+  </div>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script> --> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+
+  <script type="text/javascript" src="assets/js/app.js"></script> 
+
+</body>
+
+</html>
